@@ -1,6 +1,6 @@
 {
-    "name": "react-semantic-toasts",
-    "version": "0.6.6",
+    "name": "react-semantic-toasts-2",
+    "version": "0.6.7",
     "description": "React Semantic UI alerts library",
     "main": "build/index.js",
     "types": "build/index.d.ts",
@@ -20,16 +20,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/academia-de-codigo/react-semantic-alert.git"
+        "url": "https://github.com/lrnselfreliance/react-semantic-toasts"
     },
-    "author": "<Academia de Código_>",
+    "author": "<Roland>",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/academia-de-codigo/react-semantic-alert/issues"
-    },
     "devDependencies": {
         "@babel/cli": "^7.16.0",
-        "@babel/core": "^7.16.0",
         "@babel/plugin-proposal-class-properties": "^7.16.0",
         "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
         "@babel/plugin-transform-async-to-generator": "^7.16.0",
@@ -40,17 +36,16 @@
         "copyfiles": "^2.4.1",
         "eslint": "^8.3.0",
         "eslint-config-airbnb": "^19.0.1",
+        "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-import": "^2.25.3",
         "eslint-plugin-jsx-a11y": "^6.5.1",
         "eslint-plugin-react": "^7.27.1",
-        "eslint-config-prettier": "^8.3.0",
         "prettier-eslint": "^13.0.0",
         "semantic-ui-css": "^2.4.1"
     },
     "peerDependencies": {
-        "react": "16.x.x || 17.x.x",
         "prop-types": "^15.7.2",
+        "react": "16.x.x || 17.x.x || 18.x.x",
         "semantic-ui-react": "*"
-    },
-    "dependencies": {}
+    }
 }

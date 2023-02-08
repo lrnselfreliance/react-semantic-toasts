@@ -1,4 +1,4 @@
-declare module 'react-semantic-toasts' {
+declare module 'react-semantic-toasts-2' {
     import { SemanticICONS, SemanticSIZES, SemanticCOLORS } from 'semantic-ui-react'
     type ContainerPosition = 'top-right' | 'top-center' | 'top-left' | 'bottom-right' | 'bottom-center' | 'bottom-left'
     type SemanticAnimation = 'scale' | 'zoom' | 'fade' | 'fade up' | 'fade down' | 'fade left' | 'fade right' | 'horizontal flip' | 'vertical flip' | 'drop' |
